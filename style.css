@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header-img{
+    padding: 150px 0 150px 0;
+    background: linear-gradient(rgba(0, 0, 50, 0.5), rgba(0, 0, 50, 0.5)),
+    url(Ipa1.jpg) no-repeat center center;
+    height: 40vh;
+    background-attachment: fixed;
+    position: relative;
+    background-size: cover;
+}
+
+.header-title{
+    position: absolute;
+    width: 100%;
+    top: 45%;
+    text-align: center;
+    color: white;
+}
+
+.header-title h4{
+    padding-bottom: 20px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: #00a2c6;
+    font-size: 17px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar li{
+    list-style: none;
+}
+
+.navbar-left{
+    padding:20px;
+}
+
+.navbar-left ul{
+    display: flex;
+    justify-content: space-between;
+    width: 150%;
+}
+
+.navbar-right {
+    padding: 20px;
+}
+
+.navbar-right ul {
+    display: flex;
+    justify-content: space-between;
+    width: 120%;
+}
+
+.navbar-right li{
+    background-color: skyblue;
+    width: 70px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.content p{
+    color: white;
+}
+
+.content h4{
+    color:royalblue;
+    padding-bottom: 50px;
+}
+
+.content h1 {
+    padding-bottom: 45px;
+    color: white;
+    font-size: 50px;
+}
+
+.content img{
+    height: 450px;
+}
+
+.content-left{
+    text-align: center;
+    background-color: skyblue;
+    border-radius: 5px;
+    box-shadow:0 4px 8px 0 rgb(0 0 0 / 20%);
+    padding-top: 9%;
+    width: 38%;
+}
+
+.content-button{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 50%;
+    width: 90%;
+}
+
+.button1{
+    font-family: "MonserratB";
+    border-radius: 0;
+    background-color:royalblue;
+    color: white;
+    width: 200px;
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+.button2{
+    font-family: "MonserratB";
+    border-radius: 0;
+    background-color: rgb(13, 16, 39);
+    color: white;
+    border: 2px solid royalblue;
+    height: 40px;
+    padding-top: 10px;
+    width: 200px;
+    margin-left: 20px;
+}
+
+.content-right{
+    width: 60%;
+}
+
+.img1{
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    border-radius: 5px;
+    padding:20px;
+    text-align: center;
+}
+
+.img2{
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    border-radius: 5px;
+    padding:20px;
+    text-align: center;
+}
+
+.footer{
+    padding: 20px;
+    color: white;
+    background-color: #00a2c6;
+    text-align: center;
+    font-weight: bold;
+}
+
+@media screen and (max-width :576px){
+    .navbar ul{
+        display: none;
+    }
+
+    .content{
+        display: grid;
+        gap: 5px;
+    }
+
+    .content img{
+        height: 300px;
+    }
+
+    .content-left{
+        width: auto;
+        height: 90vh;
+    }
+
+    .content-right {
+        width: auto;
+    }
+
+    .content h4 {
+        padding-bottom: 20px;
+    }
+
+    .content h1 {
+        padding-bottom: 45px;
+        color: white;
+        font-size: 40px;
+    }
+
+    .content-button {
+        padding-bottom: 30%;
+        margin-left: 8%;
+    }
+
+    .button1 {
+        width: 150px;
+    }
+
+    .button2 {
+        width: 150px;
+    }
+
+
+}
